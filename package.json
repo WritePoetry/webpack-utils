@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
+    "type": "git", 
     "url": "git+https://github.com/WritePoetry/webpack-utils.git"
   },
   "author": "Giacomo Secchi",
@@ -19,7 +19,7 @@
     "url": "https://github.com/WritePoetry/webpack-utils/issues"
   },
   "homepage": "https://github.com/WritePoetry/webpack-utils#readme",
-  "devDependencies": {
+  "dependencies": {
     "glob": "^11.0.3"
   }
 }
