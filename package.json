@@ -1,0 +1,25 @@
+{
+  "name": "webpack-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WritePoetry/webpack-utils.git"
+  },
+  "author": "Giacomo Secchi",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/WritePoetry/webpack-utils/issues"
+  },
+  "homepage": "https://github.com/WritePoetry/webpack-utils#readme",
+  "devDependencies": {
+    "glob": "^11.0.3"
+  }
+}
