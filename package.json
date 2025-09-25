@@ -1,5 +1,5 @@
 {
-  "name": "webpack-utils",
+  "name": "@writepoetry/webpack-utils",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
