@@ -1,13 +1,13 @@
 {
   "name": "@writepoetry/webpack-utils",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Utility functions for managing dynamic asset entries and Webpack configuration in WordPress projects.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "git+https://github.com/WritePoetry/webpack-utils.git"
   },
   "author": "Giacomo Secchi",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/WritePoetry/webpack-utils#readme",
   "dependencies": {
+    "@wordpress/scripts": "^30.24.0",
     "glob": "^11.0.3"
   }
 }
