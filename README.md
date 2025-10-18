@@ -41,6 +41,7 @@ Requires `@wordpress/scripts` as a peer dependency.
 * Exclude specific folders from being processed.
 * Remap folder paths to custom namespaces.
 * Utility to detect `--output-path` from CLI arguments.
+* Excludes underscore-prefixed files and direcotries: Any file starting with _ (e.g., _variables.scss, _mixins.scss, _partial.js) is automatically skipped during asset collection.
 
 ---
 

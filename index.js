@@ -67,6 +67,13 @@ const getAsset = ( dir,  { remapDirs = {} } = {} ) => {
 			);
 
 			const ext = path.parse( strippedPath ).ext;
+			const filename = path.basename( filepath );
+
+
+			// Skip files that start with underscore.
+			if ( filename.startsWith( '_' ) ) {
+				return files;
+			}
 
 			const allowed = [ '.js', '.ts', '.jsx', '.tsx', '.scss', '.css' ];
 			if ( ! allowed.includes( ext ) ) {

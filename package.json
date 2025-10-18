@@ -1,6 +1,6 @@
 {
   "name": "@writepoetry/webpack-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Utility functions for managing dynamic asset entries and Webpack configuration in WordPress projects.",
   "main": "index.js",
   "scripts": {
